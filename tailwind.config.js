@@ -3,6 +3,7 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
     fontFamily: {
+      kalam:['Kalam','cursive'],
       sans: [
         '"Inter var", sans-serif',
         {
@@ -13,21 +14,14 @@ module.exports = {
     },
     extend: {
       colors:{
-        'light-blue': 'var(--light-blue)',
-        'blue-1': 'var(--blue-1)',
-        'tan': 'var(--tan)',
-        'tan-light': 'var(--tan-light)',
-        'ton-red': 'var(--ton-red)',
-        'ton-red-light': 'var(--ton-red-light)',
-        'dark-ton-red': 'var(--dark-ton-red)',
-        'dark-ton-red-light': 'var(--dark-ton-red-light)',
-        'gray-general': 'var(--gray-general)',
-        'gray-light': 'var(--gray-light)',
-        'gray-dark': 'var(--gray-dark)',
-        'gray-light-dark': 'var(--gray-light-dark)',
-        'dark-khaki': 'var(--dark-khaki)',
-        'sienna': 'var(--sienna)',
-        'sienna-light': 'var(--sienna-light)',
+        'primary-1': 'var(--primary-1)',
+        'primary-2': 'var(--primary-2)',
+        'secondary': 'var(--secondary)',
+        'dark-grey': 'var(--dark-grey)',
+        'white': 'var(--white)',
+        'black': 'var(--black)',
+        'dark-blue': 'var(--dark-blue)',
+        'light-black': 'var(--light-black)',
       }
     },
   },

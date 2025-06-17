@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root,
+#root,
+#docs-root{
+    --light-blue: rgba(73, 135, 247, 0.5);
+    --blue-1: rgba(44, 56, 68, 1);
+    --tan: rgba(210, 180, 140, 1);
+    --tan-light: rgba(210, 180, 140, 0.25);
+    --ton-red: rgba(235, 50, 35, 1);
+    --ton-red-light: rgba(235, 50, 35, 0.75);
+    --dark-ton-red: rgb(156, 30, 20, 1);
+    --dark-ton-red-light: rgba(156, 30, 20, 0.85);
+    --gray-general: rgba(84, 84, 84, 1);
+    --gray-light: rgb(174, 174, 174, 1);
+    --gray-light-dark: rgb(126, 126, 126, 1);
+    --gray-dark: rgb(66, 65, 65, 1);
+    --dark-khaki: rgba(189, 183, 107, 0.4);
+    --sienna: rgba(160, 82, 45, 1);
+    --sienna-light: rgba(160, 82, 45, 0.35);
+}
+
+input::file-selector-button{
+    display: none;
+}

@@ -14,7 +14,7 @@ const MainPage = () => {
     };
 
     const handleLogout = () => {
-        window.location.href = '/auth';
+        window.location.href = '/';
     };
 
     const handleProfileNavigate = () => {
